@@ -9,6 +9,7 @@
 *.toc
 *.pdf
 *.txt
+*.gz
 
 ## Intermediate documents:
 *.dvi

@@ -63,8 +63,11 @@
 \colorlet{awesome}{awesome-red}
 \newbool{acvSectionColorHighlight}
 \setbool{acvSectionColorHighlight}{true}
+% \def\@sectioncolor#1#2#3{%
+%   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
+% }
 \def\@sectioncolor#1#2#3{%
-  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
+  \ifbool{acvSectionColorHighlight}{\color{awesome}#1#2#3}{#1#2#3}%
 }
 \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
 \newfontfamily\headerfont[
