@@ -66,24 +66,22 @@
 \def\@sectioncolor#1#2#3{%
   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
 }
-
 \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
 \newfontfamily\headerfont[
   Path=\@fontdir,
-  UprightFont=*-Regular,
-  ItalicFont=*-Italic,
-  BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
-]{Roboto}
+  UprightFont=*-R,
+  ItalicFont=*-RI,
+  BoldFont=*-B,
+  BoldItalicFont=*-BI,
+]{Ubuntu}
 
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,
-]{Roboto}
-
+  UprightFont=*-L,
+  ItalicFont=*-LI,
+  BoldFont=*-M,
+  BoldItalicFont=*-MI,
+]{Ubuntu}
 \newcommand*{\footerfont}{\sourcesanspro}
 \newcommand*{\bodyfont}{\sourcesanspro}
 \newcommand*{\bodyfontlight}{\sourcesansprolight}
