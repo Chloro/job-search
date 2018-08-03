@@ -1,4 +1,4 @@
-\ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
+\ProvidesClass{setup-class}
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{draft}{\setlength\overfullrule{5pt}}
 \DeclareOption{final}{\setlength\overfullrule{0pt}}
@@ -69,7 +69,7 @@
 \def\@sectioncolor#1#2#3{%
   \ifbool{acvSectionColorHighlight}{\color{awesome}#1#2#3}{#1#2#3}%
 }
-\newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+\newfontfamily\FA[Path=\@fontdir]{FontAwesome.ttf}
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-R,
